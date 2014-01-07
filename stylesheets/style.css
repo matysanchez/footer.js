@@ -1,0 +1,56 @@
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;height:0px;}
+body{
+	font: Helvetica, Arial, sans-serif, 14px;
+}
+header{
+    background: #e3e4f2; /* Old browsers */
+    background: -moz-linear-gradient(top, #e3e4f2 0%, #babcbb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3e4f2), color-stop(100%,#babcbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e3e4f2 0%,#babcbb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e3e4f2 0%,#babcbb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e3e4f2 0%,#babcbb 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e3e4f2 0%,#babcbb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e4f2', endColorstr='#babcbb',GradientType=0 ); /* IE6-9 */
+    height: 40px;
+    padding: 8px 0;
+    margin: 0 0 25px 0;
+}
+a{
+    text-decoration: none;
+    color: #25669d;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.pages{
+    float: right;
+    margin-top: 10px;
+}
+.pages a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.content{
+    width:960px;
+    margin:0 auto;
+}
+footer{
+    width: 100%;
+    padding: 10px 0;
+    background: #febf01; /* Old browsers */
+    background: -moz-linear-gradient(top, #febf01 0%, #febf01 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#febf01), color-stop(100%,#febf01)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #febf01 0%,#febf01 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #febf01 0%,#febf01 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #febf01 0%,#febf01 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #febf01 0%,#febf01 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */
+}
